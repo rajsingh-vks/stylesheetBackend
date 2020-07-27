@@ -11,7 +11,8 @@ const uploadclientRoutes = require('./api/routes/uploadclient');
 
 //Connection with Mongoose
 mongoose.connect(
-    "mongodb://localhost/styleseat",
+    // "mongodb://localhost/styleseat",
+    "/styleseat",
     {
       useNewUrlParser: true,
       useCreateIndex: true,
